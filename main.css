@@ -150,9 +150,9 @@ button.hover {
     cursor: pointer;
 }
 
-/* 📱 RESPONSIVIDADE MOBILE */
+/* RESPONSIVIDADE MOBILE */
 @media only screen and (max-width: 600px) {
- .valentines-day-card {
+.valentines-day-card {
     width: 90%;
     height: auto;
     min-height: 480px;
@@ -169,29 +169,35 @@ button.hover {
     font-size: 1.3rem;
     margin: 20px 0;
     animation: none;
+    z-index: 10;
+  }
+
+  button.hover {
+    font-size: 1rem;
+    padding: 16px 20px;
   }
 
   .nuvens {
     position: absolute;
-    bottom: -5px;
+    bottom: 0;
     left: 0;
     width: 100%;
     height: 100px;
     background: none;
     box-shadow:
-        10px 0px #fff0f3,
-        70px 30px #fff0f3,
-        140px 20px #fff0f3,
-        210px 35px #fff0f3,
-        280px 15px #fff0f3,
-        350px 20px #fff0f3;
+      0px 10px #fff0f3,
+      60px 20px #fff0f3,
+      120px 15px #fff0f3,
+      190px 30px #fff0f3,
+      260px 10px #fff0f3,
+      330px 25px #fff0f3;
     z-index: 4;
   }
 
-  .coracaoUm { left: 10%; top: 80%; animation: upTwo 15s linear infinite 5.5s; }
-  .coracaoDois { left: 25%; top: 78%; animation: upTwo 13s linear infinite 4.5s; }
-  .coracaoTres { left: 40%; top: 85%; animation: upTwo 9s linear infinite 3.5s; }
-  .coracaoQuatro { left: 60%; top: 83%; animation: upTwo 9s linear infinite 3.5s; }
-  .coracaoCinco { left: 75%; top: 80%; animation: upTwo 13s linear infinite 4.5s; }
-  .coracaoSeis { left: 85%; top: 70%; animation: upTwo 15s linear infinite 5.5s; }
+  .coracaoUm  { left: 10%; top: 82%; animation: upTwo 12s linear infinite 1s; }
+  .coracaoDois  { left: 25%; top: 85%; animation: upTwo 11s linear infinite 2s; }
+  .coracaoTres  { left: 40%; top: 80%; animation: upTwo 13s linear infinite 3s; }
+  .coracaoQuatro { left: 60%; top: 88%; animation: upTwo 14s linear infinite 4s; }
+  .coracaoCinco  { left: 75%; top: 86%; animation: upTwo 12s linear infinite 5s; }
+  .coracaoSeis  { left: 85%; top: 80%; animation: upTwo 15s linear infinite 6s; }
 }
