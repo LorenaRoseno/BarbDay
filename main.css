@@ -152,7 +152,7 @@ button.hover {
 
 /* RESPONSIVIDADE MOBILE */
 @media only screen and (max-width: 600px) {
-.valentines-day-card {
+  .valentines-day-card {
     width: 90%;
     height: auto;
     min-height: 480px;
@@ -194,10 +194,10 @@ button.hover {
     z-index: 4;
   }
 
-  .coracaoUm  { left: 10%; top: 82%; animation: upTwo 12s linear infinite 1s; }
-  .coracaoDois  { left: 25%; top: 85%; animation: upTwo 11s linear infinite 2s; }
-  .coracaoTres  { left: 40%; top: 80%; animation: upTwo 13s linear infinite 3s; }
-  .coracaoQuatro { left: 60%; top: 88%; animation: upTwo 14s linear infinite 4s; }
-  .coracaoCinco  { left: 75%; top: 86%; animation: upTwo 12s linear infinite 5s; }
-  .coracaoSeis  { left: 85%; top: 80%; animation: upTwo 15s linear infinite 6s; }
+  .coracaoUm  { left: 10% !important; top: 90% !important; }
+  .coracaoDois  { left: 25% !important; top: 92% !important; }
+  .coracaoTres  { left: 40% !important; top: 89% !important; }
+  .coracaoQuatro { left: 60% !important; top: 93% !important; }
+  .coracaoCinco  { left: 75% !important; top: 90% !important; }
+  .coracaoSeis  { left: 85% !important; top: 88% !important; }
 }
