@@ -153,22 +153,23 @@ button.hover {
 /* 📱 RESPONSIVIDADE MOBILE */
 @media only screen and (max-width: 600px) {
   .valentines-day-card {
-    width: 90%;
-    height: auto;
-    padding: 30px 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+  width: 90%;
+  height: auto; 
+  min-height: 450px; 
+  padding-bottom: 100px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
   .text {
-    position: static;
-    width: 100%;
-    font-size: 1.3rem;
-    margin: 20px 0;
-    animation: none;
-  }
+  position: static;
+  width: 100%;
+  font-size: 1.3rem;
+  margin: 20px 0;
+  animation: none;
+}
 
   button.hover {
     font-size: 1rem;
