@@ -176,11 +176,15 @@ button.hover {
   }
 
   .nuvens {
-    transform: scale(0.8);
-    left: -20px;
+    transform: scale(0.9);
+    left: -10px;
+    top: auto;
+    bottom: 0;
+    position: absolute;
+    z-index: 5;
   }
 
   .coracoes {
-    display: none; /* opcional: esconder corações no mobile */
+    display: block;
   }
 }
