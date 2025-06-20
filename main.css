@@ -10,7 +10,7 @@ body {
     background-color: #ff758f;
 }
 
-/* --- CARTÃO DE ANIMAÇÃO (estilo Bárbara) --- */
+/* --- CARTÃO DE ANIMAÇÃO --- */
 .happy-valentines {
     display: flex;
     flex-direction: column;
@@ -29,7 +29,6 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.4);
     overflow: hidden;
-
 }
 
 /* --- NUVENS DECORATIVAS --- */
@@ -55,7 +54,7 @@ body {
     position: absolute;
 }
 
-.coracaoUm { left: 50px; top: 300px; animation: upTwo 15s linear infinite 5.5s;}
+.coracaoUm { left: 50px; top: 300px; animation: upTwo 15s linear infinite 5.5s; }
 .coracaoDois { left: 150px; top: 280px; animation: upTwo 13s linear infinite 4.5s; }
 .coracaoTres { left: 200px; top: 350px; animation: upTwo 9s linear infinite 3.5s; }
 .coracaoQuatro { left: 400px; top: 370px; animation: upTwo 9s linear infinite 3.5s; }
@@ -151,3 +150,37 @@ button.hover {
     cursor: pointer;
 }
 
+/* 📱 RESPONSIVIDADE MOBILE */
+@media only screen and (max-width: 600px) {
+  .valentines-day-card {
+    width: 90%;
+    height: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text {
+    position: static;
+    width: 100%;
+    font-size: 1.3rem;
+    margin: 20px 0;
+    animation: none;
+  }
+
+  button.hover {
+    font-size: 1rem;
+    padding: 16px 20px;
+  }
+
+  .nuvens {
+    transform: scale(0.8);
+    left: -20px;
+  }
+
+  .coracoes {
+    display: none; /* opcional: esconder corações no mobile */
+  }
+}
